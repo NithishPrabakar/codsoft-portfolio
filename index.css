@@ -1,0 +1,305 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(portfoliobg.png);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    position: fixed;
+}
+.firstletter{
+    color:orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-left: 23px;
+}
+.secondletter{
+    color:bisque;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navdiv{
+    margin-left: 800px;
+}
+.navbar{
+    display: inline-block;
+    text-decoration: none;
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-top:27px;
+    margin-left: 29px;
+    position: relative;
+}
+.navbar:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+.top{
+    display: flex;
+}
+
+.maindesc1{
+    color:azure;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:inherit;
+    padding-top:150px;
+    padding-left:150px;
+}
+.maindesc2content{
+    color: aliceblue;
+    padding-left:150px;
+    font-size: 40px;
+    font-family: Josefin Sans;
+}
+.maindesc2content span{
+    color: rgb(255, 0, 89);
+    font-weight: bolder;
+}
+.maindesc3{
+    color:aqua;
+    padding-left:150px;
+    font-family: montserrat;
+    font-size: large;
+}
+.aboutcontent{
+    display: flex;
+}
+#abouticon{
+    width: 420px;
+}
+#about {
+    color:white;
+    font-size: 25px;
+    height: 50vh;
+    font-family: montserrat;
+}
+#about p{
+    color: white;
+    font-family:montserrat ;
+    font-size: 20px;
+}
+#about{
+    padding-left:130px;
+    padding-top: 120px;
+    margin-top: 210px;
+    margin-right: 20px;
+}
+#skills{
+    height: 100vh;
+}
+.abtskill{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+#skills h1{
+    margin-top: 210px;
+    color:white;
+    font-size: 25px;
+    height: 20vh;
+    font-family: montserrat;
+}
+.skillcontent1{
+    display: flex;
+    margin-bottom: 30px;
+}
+#skillsicon{
+    width: 18%;
+    padding-top: -25px;
+    padding-left: 177px;
+    margin-right: 95px;
+    margin-top: -25px;
+}
+#skillsicon:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.skillset{
+    font-size: 30px;
+    font-family: montserrat;
+    color: rgb(255, 37, 73);
+    font-weight: bold;
+}
+.skill1{
+    color: white;
+    border: 4px solid rgb(255, 37, 73);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: montserrat;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 25px;
+    position: relative;
+    top: -16px;
+}
+.skill1:hover{
+    color:rgb(255, 37, 73);
+    background-color: white;
+    transition: 0.3s;
+    transform: scale(1.1);
+    font-weight: 600;
+    box-shadow: 2px 2px 3px rgb(68, 0, 151), -2px -2px 5px rgb(68, 0, 151) ;
+}
+.skillcontent2{
+    display: flex;
+    margin-bottom: 30px;
+}
+.skilldiv{
+    display: flex;
+}
+.skillcontent3{
+    display: flex;
+}
+.projtitle{
+    font-size: 25px;
+    color: white;
+    font-family: montserrat;
+    height: 20vh;
+}
+#calciproj{
+    width: 85%;
+    margin-left: 100px;
+}
+#calciproj:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.projcalci{
+    color: white;
+    font-family: montserrat;
+    font-size: 20px;
+    position: relative;
+    left: 95px;
+    margin-right: 50px;
+}
+.p1{
+    display: flex  ;
+    height: 60vh;
+}
+#loginproj{
+    display: flex;
+    margin-left: 99px;
+    width: 165%;
+}
+#loginproj:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.projlogin{
+    color: white;
+    font-size: 20px;
+    font-family: montserrat;
+    margin-left: 209px;
+    margin-right: 100px;
+}
+.Feedbacktitle{
+    color: white;
+    font-family: montserrat;
+    font-size: 25px;
+}
+.finlabel1{
+    color: white;
+    font-size: 20px;
+    font-family: montserrat;
+}
+.feedbackform{
+    height: 50vh;
+}
+.Feedbacktitle{
+    height: 10vh;
+}
+.inputbox{
+    width:550px;
+    padding:12px 20px;
+    box-sizing: border-box;
+    border: 3px solid grey;
+    outline: none;
+    transition: 0.3s;
+    background: rgba(200, 161, 161, 0.285);
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    font-family: montserrat;
+    margin-left: 5px;
+}
+.inputbox:hover{
+    transition: 0.3s;
+    transform:scale3d(1.1, 1.1, 1.1)
+}
+.inputdesc{
+    height: 150px;
+    box-sizing: border-box;
+    padding: 10px;
+    resize: none;
+}
+.resumetitle{
+    color: white;
+    font-family: montserrat;
+    font-size: 25px;
+}
+.resume{
+    height: 70vh;
+}
+.resumedownloadsec{
+    border: 3px solid white;
+    font-family: montserrat;
+    font-size: 25px;
+    color: white;
+    background: pink;
+    width: 180px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 50px;
+    position: relative;
+    margin-top: 150px;
+    left: 90vh;
+    text-decoration: none;
+}
+.resumedownloadsec:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: pink;
+    background: rgb(255, 0, 43);
+    box-shadow: 3px 3px 3px rgb(68, 0, 151), -3px -3px 5px rgb(68, 0, 151) ;
+    text-decoration: none;
+}
+.contactme{
+    height: 30vh;
+}
+.contacttitle{
+    color: white;
+    font-family: montserrat;
+    font-size: 25px;
+    height: 20vh;
+}
+#logo{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+    width: 50px;
+}
+#logo:hover{
+    transition: 0.3s;
+    transform: scale(1.5);
+    cursor:pointer
+}
+.footersec1{
+    background-color: rgba(32, 32, 40, 0.765);
+    height: 10vh;
+    color: white;
+    font-family: montserrat;
+}
+.footerseccontent{
+    position: relative;
+    top: 25px;
+}
